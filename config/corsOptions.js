@@ -1,5 +1,6 @@
 const whiteList = [
   "http://localhost:5400/",
+  "http://localhost:3000/",
   "https://jcrown.vercel.app/"
 ];
 
