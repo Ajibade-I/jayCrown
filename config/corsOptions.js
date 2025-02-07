@@ -12,7 +12,7 @@ const corsOptions = {
       callback(new Error("Access denied by cors"));
     }
   },
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
   optionsSuccessStatus: 200,
   credentials: true,
 };
